@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <script src="nav.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="flex items-center justify-between">
+        <a href="index.html"><img class="w-8" src="./assets/shared/logo.svg" alt=""></a>
+        <div class="absolute hidden lg:block w-[500px] xl:w-[60%] h-[0.5px] opacity-40 left-40 z-10 bg-white "></div>
+        <nav class="hidden sm:block text-white font-bcondendensed uppercase ml-auto bg-transparent opacity-80 backdrop-blur-3xl lg:text-xl p-5">
+          <ul class="flex items-center gap-6">
+            <li class="relative nav-under after:absolute after:h-1 after:w-0 after:-bottom-3 after:bg-blue-soft after:left-0 cursor-pointer hover:after:w-full after:transition-all after:duration-300"><a class="" href="index.html"><span class="font-bold">00</span> home</a></li>
+            <li class="relative nav-under after:absolute after:h-1 after:w-0 after:-bottom-3 after:bg-blue-soft after:left-0 cursor-pointer hover:after:w-full after:transition-all after:duration-300"><a href="destination.html"><span class="font-bold">01</span> destination</a></li>
+            <li class="relative nav-under after:absolute after:h-1 after:w-0 after:-bottom-3 after:bg-blue-soft after:left-0 cursor-pointer hover:after:w-full after:transition-all after:duration-300"><a href="crew.html"><span class="font-bold">02</span> crew</a></li>
+            <li class="relative nav-under after:absolute after:h-1 after:w-0 after:-bottom-3 after:bg-blue-soft after:left-0 cursor-pointer hover:after:w-full after:transition-all after:duration-300"><a href="technology.html"><span class="font-bold">03</span> technology</a></li>
+          </ul>
+        </nav>
+        <div>
+          <img id="show" class="sm:hidden" src="./assets/shared/icon-hamburger.svg" alt="">
+        </div>
+      </div>
+      <div id="navbar" class="fixed sm:hidden hidden top-0 w-[200px] right-0 h-full bg-transparent opacity-90 z-100 backdrop-blur-3xl">
+        <div class="font-bcondendensed text-white uppercase tracking-wider flex items-center justify-center h-full">
+          <ul class="flex flex-col gap-8">
+            <li><a href="index.html"><span class="font-bold">00</span> home</a></li>
+            <li><a href="destination.html"><span class="font-bold">01</span> destination</a></li>
+            <li><a href="crew.html"><span class="font-bold">02</span> crew</a></li>
+            <li><a href="technology.html"><span class="font-bold">03</span> technology</a></li>
+          </ul>
+          <img id="hide" class="absolute top-10 right-10" src="./assets/shared/icon-close.svg" alt="">
+        </div>
+      </div>
+</body>
+</html>

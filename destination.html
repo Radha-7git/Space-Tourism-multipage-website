@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <script src="nav.js" defer></script>
+    <script src="dest.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <title>Destination</title>
+  </head>
+  <body
+    class="min-h-screen bg-[url('./assets/destination/background-destination-mobile.jpg')] lg:bg-[url('./assets/destination/background-destination-desktop.jpg')] sm:bg-[url('./assets/destination/background-destination-tablet.jpg')] bg-cover h-full bg-center bg-no-repeat w-full"
+  >
+    <header class="z-10 p-6">
+      <div id="header-container"></div>
+    </header>
+    <main
+      class="z-20 p-8 flex items-center justify-center h-full flex-col gap-6 lg:flex-row lg:mb-12"
+    >
+      <div id="" class="basis-1/2">
+        <p
+          class="uppercase text-white font-bcondendensed text-xl text-center lg:text-left"
+        >
+          <span class="font-bold">01</span> pick your destination
+        </p>
+        <img
+          id="planet-image"
+          class="mt-7 lg:mt-12 w-[450px] mx-auto"
+          src=""
+          alt=""
+        />
+      </div>
+      <div class="basis-1/2">
+        <div
+          class="text-blue-soft font-bcondendensed flex items-center justify-center lg:justify-start mx-auto gap-6 mt-5"
+        >
+          <button class="relative uppercase planet-change after:absolute after:h-1 after:w-0 after:-bottom-3 after:bg-blue-soft after:left-0 cursor-pointer hover:after:w-full after:transition-all after:duration-300">moon</button>
+          <button class=" relative uppercase planet-change after:absolute after:h-1 after:w-0 after:-bottom-3 after:bg-blue-soft after:left-0 cursor-pointer hover:after:w-full after:transition-all after:duration-300">mars</button>
+          <button class="relative uppercase planet-change after:absolute after:h-1 after:w-0 after:-bottom-3 after:bg-blue-soft after:left-0 cursor-pointer hover:after:w-full after:transition-all after:duration-300">europa</button>
+          <button class="relative uppercase planet-change after:absolute after:h-1 after:w-0 after:-bottom-3 after:bg-blue-soft after:left-0 cursor-pointer hover:after:w-full after:transition-all after:duration-300">titan</button>
+        </div>
+        <div
+          class="text-white font-bcondendensed mt-12 md:w-3/4 md:mx-auto lg:mx-0"
+        >
+          <div class="text-center border-b-[0.8px] border-b-white">
+            <h1
+              id="planet-name"
+              class="text-6xl uppercase font-bellefair lg:text-left"
+            ></h1>
+            <p
+              id="description"
+              class="mt-4 mb-4 lg:text-left text-blue-soft"
+            ></p>
+          </div>
+          <div
+            class="flex flex-col items-center lg:items-start gap-6 lg:gap-12 text-center lg:text-left uppercase mt-6 md:flex-row justify-evenly lg:justify-start"
+          >
+            <div>
+              <p class="text-sm text-blue-soft">avg. distance</p>
+              <p id="distance" class="text-2xl font-bellefair"></p>
+            </div>
+            <div>
+              <p class="text-sm text-blue-soft">est. travel time</p>
+              <p id="travel" class="text-2xl font-bellefair"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

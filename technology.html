@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <script src="nav.js" defer></script>
+    <script src="tech.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <title>Technology</title>
+  </head>
+  <body
+    class="min-h-screen overflow-x-hidden bg-[url('./assets/technology/background-technology-mobile.jpg')] lg:bg-[url('./assets/technology/background-technology-desktop.jpg')] sm:bg-[url('./assets/technology/background-technology-tablet.jpg')] bg-cover h-full bg-center bg-no-repeat w-full"
+  >
+    <header class="z-10 p-6">
+      <div id="header-container"></div>
+    </header>
+    <main class=" w-full lg:w-[90%] max-w-[1200px] mx-auto">
+      <p class="hidden lg:block uppercase text-white font-bcondendensed text-xl"><span class="opacity-85">03</span> space launch 101</p>
+      <div class=" z-20 mt-12 lg:mt-6  max-w-[1300px] mx-auto text-blue-soft flex lg:flex-row flex-col-reverse items-center justify-center gap-8">
+        <div class="p-6 text-center lg:text-left lg:mt-24  lg:basis-[55%]">
+          <div class="lg:flex items-center gap-12">
+            <div class="flex items-center gap-4 justify-center lg:flex-col">
+              <button class="border-2 cursor-pointer change-technology text-blue-dark bg-white px-5 py-3 rounded-full">1</button>
+              <button class="border-2 cursor-pointer change-technology bg-transparent px-5 py-3 rounded-full" >2</button>
+              <button class="border-2 cursor-pointer change-technology bg-transparent px-5 py-3 rounded-full" >3</button>
+            </div>
+            <div class="mt-6">
+              <p class="uppercase font-bellefair lg:text-xl opacity-70  text-white font-thin">the terminology...</p>
+              <h2 id="cap-title" class="uppercase font-bellefair text-3xl xl:text-5xl text-white mt-4">launch vehicle</h2>
+              <p id="description" class="mt-4 font-bcondendensed md:w-[60%] mx-auto lg:w-full md:text-lg">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:basis-[40%]">
+          <p class="lg:hidden uppercase text-center font-bcondendensed text-xl"><span>03</span> space launch 101</p>
+          <img id="port-image" class="hidden lg:block" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="">
+          <img id="lands-image" class="block lg:hidden mt-4" src="./assets/technology/image-launch-vehicle-landscape.jpg" alt="">
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

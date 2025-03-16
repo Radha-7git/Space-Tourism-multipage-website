@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <script src="nav.js" defer></script>
+    <script src="crew.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body
+    class="min-h-screen bg-[url('./assets/crew/background-crew-mobile.jpg')] lg:bg-[url('./assets/crew/background-crew-desktop.jpg')] sm:bg-[url('./assets/crew/background-crew-tablet.jpg')] bg-cover h-full bg-center bg-no-repeat w-full"
+  >
+    <header class="z-10 p-6">
+      <div id="header-container"></div>
+    </header>
+    <main class="w-full lg:w-[90%] max-w-[1200px] mx-auto mt-12">
+      <div>
+        <p class="uppercase text-xl text-center font-bcondendensed lg:text-left text-white">
+          <span class="opacity-85">02</span> meet your crew
+        </p>
+      </div>
+      <div class="p-6 flex flex-col items-center gap-12 lg:flex-row">
+        <div
+          class="flex flex-col items-center lg:items-start lg:justify-between w-full gap-8 lg:basis-1/2"
+        >
+          <div class="mt-4 text-center lg:text-left">
+            <p id="char-role" class="uppercase font-bellefair opacity-70 lg:text-xl text-white font-thin">
+              commander
+            </p>
+            <h2 id="char-name"
+              class="uppercase font-bellefair text-3xl xl:text-5xl text-white mt-4"
+            >
+              douglas hurley
+            </h2>
+            <p id="char-description" class="mt-4 md:w-[60%] mx-auto lg:w-full md:text-lg font-bcondendensed text-blue-soft">
+              Douglas Gerald Hurley is an American engineer, former Marine Corps
+              pilot and former NASA astronaut. He launched into space for the
+              third time as commander of Crew Dragon Demo-2.
+            </p>
+          </div>
+          <div class="flex gap-4 lg:items-start lg:justify-start">
+            <button
+              class="border-2 space-char border-white rounded-full cursor-pointer size-5 hover:opacity-100 transition-all duration-300 ease-in bg-white text-black"
+            ></button>
+            <button
+              class="border-2 space-char border-white rounded-full cursor-pointer size-5 hover:opacity-100 transition-all duration-300 ease-in  text-black"
+            ></button>
+            <button
+              class="border-2 space-char border-white rounded-full cursor-pointer hover:opacity-100 transition-all duration-300 ease-in size-5  text-black"
+            ></button>
+            <button
+              class="border-2 space-char border-white rounded-full cursor-pointer hover:opacity-100 transition-all duration-300 ease-in size-5  text-black"
+            ></button>
+          </div>
+        </div>
+        <div class="lg:basis-1/2 w-full">
+          <img id="char-display"
+            class=" mx-auto block"
+            src="./assets/crew/image-douglas-hurley.webp"
+            alt=""
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
