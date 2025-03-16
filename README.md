@@ -10,7 +10,7 @@ A **fully responsive**, multi-page website designed for space exploration enthus
 
 ## 📸 Project Preview
 ### Mobile View  
-![Mobile Home](.screenshots/127.0.0.1_5500_src_index.html(1).png)  
+![Mobile Home](https://github.com/Radha-7git/Space-Tourism-multipage-website/blob/main/screenshots/127.0.0.1_5500_src_crew.html%20(1).png) 
 ![Mobile Destination](./assets/previews/mobile-destination.png)  
 ![Mobile Crew](./assets/previews/mobile-crew.png)  
 ![Mobile Technology](./assets/previews/mobile-technology.png)  
