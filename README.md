@@ -9,17 +9,19 @@ A **fully responsive**, multi-page website designed for space exploration enthus
 ---
 
 ## 📸 Project Preview
+### Mobile View  
+![Mobile Home](.screenshots/127.0.0.1_5500_src_index.html(1).png)  
+![Mobile Destination](./assets/previews/mobile-destination.png)  
+![Mobile Crew](./assets/previews/mobile-crew.png)  
+![Mobile Technology](./assets/previews/mobile-technology.png)  
+![Mobile Menu](./assets/previews/mobile-menu.png)  
 
-| Mobile View | Desktop View |
-|------------|--------------|
-| ![Mobile Home](./assets/previews/mobile-home.png) | ![Desktop Home](./assets/previews/desktop-home.png) |
-| ![Mobile Destination](./assets/previews/mobile-destination.png) | ![Desktop Destination](./assets/previews/desktop-destination.png) |
-| ![Mobile Crew](./assets/previews/mobile-crew.png) | ![Desktop Crew](./assets/previews/desktop-crew.png) |
-| ![Mobile Technology](./assets/previews/mobile-technology.png) | ![Desktop Technology](./assets/previews/desktop-technology.png) |
-| ![Mobile Menu](./assets/previews/mobile-menu.png) | ![Desktop Navigation](./assets/previews/desktop-navigation.png) |
-
-
-
+### Desktop View  
+![Desktop Home](./assets/previews/desktop-home.png)  
+![Desktop Destination](./assets/previews/desktop-destination.png)  
+![Desktop Crew](./assets/previews/desktop-crew.png)  
+![Desktop Technology](./assets/previews/desktop-technology.png)  
+![Desktop Navigation](./assets/previews/desktop-navigation.png)  
 ---
 
 ## 🛠️ Features
